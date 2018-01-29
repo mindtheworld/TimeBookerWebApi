@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[TimeBooker]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Project] NVARCHAR(50) NOT NULL, 
+    [Time] NVARCHAR(10) NOT NULL, 
+    [Created] DATETIME NOT NULL DEFAULT GETDATE ( ), 
+    [IsRemoved] BIT NOT NULL DEFAULT 0 
+)
