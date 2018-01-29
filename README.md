@@ -13,3 +13,8 @@
 - DataAccessLib (EF + DAL: manage DB CRUD operations)
 - TestWebApi (RESTful webapi)
 - TestWebApi.Tests (To test webapi)
+
+##  Limitations:
+- Better api design.
+- More unit tests.
+- Error handling. 
