@@ -14,7 +14,11 @@
 - TestWebApi (RESTful webapi)
 - TestWebApi.Tests (To test webapi)
 
+## How to fix CORS isse: OPTIONS 405 (Method Not Allowed)
+- *Note: https://enable-cors.org/server_aspnet.html
+
 ##  Limitations:
 - Better api design.
 - More unit tests.
 - Error handling. 
+
