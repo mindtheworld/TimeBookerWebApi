@@ -64,7 +64,6 @@ namespace TestWebApi.Controllers
         {
             if (ModelState.IsValid && id == updatedBooking.Id)
             {
-
                 var result = _timeBookerRepository.Update(updatedBooking);
 
                 if (result)
