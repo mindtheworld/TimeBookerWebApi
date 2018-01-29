@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="ba0afe671af24146876e6d5e244e7044" Name="Diagram1">
-        <EntityTypeShape EntityType="TimeBookerDbModel.TimeBooker" Width="1.5" PointX="0.75" PointY="0.75" />
+      <Diagram DiagramId="2626b867db76469f9444c2823ce53c61" Name="Diagram1">
+        <EntityTypeShape EntityType="TimeBookerDbModel.TimeBooker" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
