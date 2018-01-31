@@ -19,7 +19,7 @@ namespace DataAccessLib.DAL
 
         public IEnumerable<TimeBooker> GetAll()
         {
-            return _timeBookerEntities.TimeBookers.Where(x => !x.IsRemoved).ToList();
+            return _timeBookerEntities.TimeBookers.Where(x => !x.IsRemoved).OrderByDescending(x=>x.Created).ToList();
         }
 
         public TimeBooker Get(int id)
@@ -89,7 +89,6 @@ namespace DataAccessLib.DAL
         public void Dispose()
         {
             Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

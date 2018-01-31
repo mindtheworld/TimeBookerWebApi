@@ -35,10 +35,13 @@ namespace TestWebApi.Tests.Controllers
 
             // Act
             var results = controller.Get();
+            var contentResults = results as OkNegotiatedContentResult<IEnumerable<TimeBooker>>;
 
             // Assert
             Assert.IsNotNull(results);
-            Assert.AreEqual(4, results.Count());
+            Assert.IsNotNull(contentResults);
+            Assert.IsNotNull(contentResults.Content);
+            Assert.AreEqual(4, contentResults.Content.Count());
         }
 
         [Test]

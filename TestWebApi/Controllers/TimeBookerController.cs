@@ -26,9 +26,9 @@ namespace TestWebApi.Controllers
         }
 
         // GET api/TimeBooker
-        public IEnumerable<TimeBooker> Get()
+        public IHttpActionResult Get()
         {
-            return _timeBookerRepository.GetAll();
+            return Ok(_timeBookerRepository.GetAll());
         }
 
         // GET api/TimeBooker/3
